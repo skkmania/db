@@ -1,0 +1,51 @@
+-- movesテーブルと、kifテーブルとから棋譜のmoveを抽出して出力するSQL
+-- postgersql 8.4以降でないと動かない( with recursiveを使うので）
+-- 入力 数値 kid  kifのid kifsテーブルのカラム
+-- 出力 
+
+create type a_kif_record as (cnt bigint, kmid numeric, bid integer, mid integer, m_from smallint, m_to smallint, piece character(1), promote boolean, nxt_bid integer);
+create or replace function get_book( arg_kid integer ) returns setof a_kif_record as $$
+  declare
+    workrow	a_kif_record;
+    kif_string	varchar;
+    moves_count	bigint;
+    myrow	record;
+  begin
+    -- kifsから、kifテーブルを作成
+    select into moves_count ,kif_string tesu, kif from kifs where kid = arg_kid;
+    
+    drop table if exists kif cascade;
+    CREATE TEMPORARY TABLE kif as
+      select * from kif_data_to_table(kif_string, moves_count);
+
+   for myrow in select * from kif loop
+     raise notice '% , %', myrow.cnt, myrow.kmid;
+   end loop;
+
+    drop table if exists result cascade;
+    CREATE TEMPORARY TABLE result as
+    with recursive r AS (
+          -- SELECT kif.cnt,kif.mid,moves.bid, moves.mid, moves.nxt_bid
+          SELECT *
+                FROM kif,moves
+                  WHERE moves.bid = 1
+                    and cnt       = 1 
+                    and moves.mid = (select kmid from kif where cnt = 1)
+        UNION ALL
+          SELECT kif.cnt, kif.kmid, moves.*
+                FROM kif,moves,r
+                  WHERE moves.bid = r.nxt_bid
+                    and kif.cnt   = r.cnt + 1
+                    and moves.mid = kif.kmid
+    )
+    SELECT * FROM r ORDER BY cnt;
+    --SELECT kif.cnt,kif.kmid,moves.bid, moves.mid, moves.nxt_bid FROM r ORDER BY kif.cnt;
+   for workrow in select * from result loop
+     raise notice '% , %, %', workrow.cnt, workrow.kmid, workrow.bid;
+     return next workrow;
+   end loop;
+
+   return;
+   -- return query select * from result;
+  end;$$
+language 'plpgsql';

@@ -1,0 +1,543 @@
+# Logfile created on Wed May 19 22:11:37 +0900 2010 by logger.rb/22285
+D, [2010-05-19T22:11:37.118770 #9198] DEBUG -- : information about this game : w:fiasco:b:monte carlo:r:w:g:2008-06-29
+D, [2010-05-19T22:11:37.139351 #9198] DEBUG -- : kifu data is transformed in to a seriese of byte : \n=<BCCD6>DEFEAEÇ?GRW RRFE<R=<3-54301RX DRAW0780.7ON%/=<9:G=ABNMKL=G@9D)LM<;9D;:X<:¹89R=<3R432)212X0/80²X(2DR3438A$,
+T29C('(D:R9:(R/(%2§%XDV<X<DW$W#‘DCBC‹$¬5,U'/#,4W,4*,¢*)#+R*+*)1V:10V'
+D, [2010-05-19T22:11:37.139396 #9198] DEBUG -- : the length of this byte is : 232
+D, [2010-05-19T22:15:56.402751 #9253] DEBUG -- : information about this game : w:fiasco:b:monte carlo:r:w:g:2008-06-29
+D, [2010-05-19T22:15:56.422847 #9253] DEBUG -- : kifu data is transformed in to a seriese of byte : \n=<BCCD6>DEFEAEÇ?GRW RRFE<R=<3-54301RX DRAW0780.7ON%/=<9:G=ABNMKL=G@9D)LM<;9D;:X<:¹89R=<3R432)212X0/80²X(2DR3438A$,
+T29C('(D:R9:(R/(%2§%XDV<X<DW$W#‘DCBC‹$¬5,U'/#,4W,4*,¢*)#+R*+*)1V:10V'
+D, [2010-05-19T22:15:56.422891 #9253] DEBUG -- : the length of this byte is : 232
+D, [2010-05-19T22:17:13.369452 #9284] DEBUG -- : information about this game : w:fiasco:b:monte carlo:r:w:g:2008-06-29
+D, [2010-05-19T22:17:13.390071 #9284] DEBUG -- : kifu data is transformed in to a seriese of byte : \n=<BCCD6>DEFEAEÇ?GRW RRFE<R=<3-54301RX DRAW0780.7ON%/=<9:G=ABNMKL=G@9D)LM<;9D;:X<:¹89R=<3R432)212X0/80²X(2DR3438A$,
+T29C('(D:R9:(R/(%2§%XDV<X<DW$W#‘DCBC‹$¬5,U'/#,4W,4*,¢*)#+R*+*)1V:10V'
+D, [2010-05-19T22:17:13.390117 #9284] DEBUG -- : the length of this byte is : 232
+D, [2010-05-19T22:17:13.420310 #9284] DEBUG -- : delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,77,76,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21,34,24,'R',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22, 0,23,'p',false,false,'BPPPP','lxpxxxPxLnxxRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 23, 0,87,'P',false, true,'BPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 24,86,76,'r',false,false,'BPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrPSNlxpxxxPxL','');
+insert into kifread values( 25, 0,77,'P',false, true,'BPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrxGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 26,76,66,'r',false,false,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 27,59,68,'K',false, true,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxrPxxsxpxxxPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 28,23,24,'p',false,false,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxrPKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 29,67,66,'P',false, true,'BPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxrPKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 30,63,64,'p',false,false,'RBPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 31, 0,22,'P',false, true,'RBPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 32,31,22,'s',false,false,'RBP','lxpxxxPxLnPxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 33, 0,35,'R',false, true,'RBP','lxpxxxPxLnsxpxxxSNxgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 34,45,23,'b',false,false,'BP','lxpxxxPxLnsxpxxxSNxgxxRxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 35,35,85,'R',false, true,'BP','lxpxxxPxLnsbpxxxSNxgxxRxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 36, 0,82,'p',false,false,'BP','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxRxPSNlxpxxxPxL','rpp');
+insert into kifread values( 37, 0,63,'B',false, true,'BP','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 38,71,72,'s',false,false,'P','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxBpxPxKxsxpxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 39,63,27,'B', true, true,'P','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxBpxPxKxxspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 40,61,71,'g',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxxspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 41,97,96,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxxxxpxPxKxgspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 42,51,62,'k',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxxxxpxPxKxgspxxxPGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 43,77,76,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgspxxxPGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 44,73,74,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgspxxPxGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 45,88,77,'S',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPxGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 46,82,83,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnpxxRxPxNlxpxxPxxL','rp');
+insert into kifread values( 47,96,95,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxpxxPxxL','rp');
+insert into kifread values( 48,93,94,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxpxPxxxL','rp');
+insert into kifread values( 49,77,88,'S',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxxpPxxxL','rp');
+insert into kifread values( 50,81,73,'n',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPxGxnxpxRxPSNlxxpPxxxL','rp');
+insert into kifread values( 51,85,55,'R',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsnpxPxGxxxpxRxPSNlxxpPxxxL','rp');
+insert into kifread values( 52,94,95,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpxPxGxxxpxxxPSNlxxpPxxxL','rp');
+insert into kifread values( 53,76,75,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpxPxGxxxpxxxPSNlxxxpxxxL','rpp');
+insert into kifread values( 54,73,85,'n',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpPxxGxxxpxxxPSNlxxxpxxxL','rpp');
+insert into kifread values( 55,75,74,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxpPxxGxxxpxnxPSNlxxxpxxxL','rpp');
+insert into kifread values( 56, 0,76,'r',false,false,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxPxxxGxxxpxnxPSNlxxxpxxxL','rpp');
+insert into kifread values( 57,74,73,'P', true, true,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxPxrxGxxxpxnxPSNlxxxpxxxL','pp');
+insert into kifread values( 58,72,73,'s',false,false,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsQxxrxGxxxpxnxPSNlxxxpxxxL','pp');
+insert into kifread values( 59, 0,77,'P',false, true,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgxsxxrxGxxxpxnxPSNlxxxpxxxL','ppp');
+insert into kifread values( 60,76,66,'r',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgxsxxrPGxxxpxnxPSNlxxxpxxxL','ppp');
+insert into kifread values( 61, 0,67,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxrxKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 62,66,65,'r',false,false,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxrPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 63,55,65,'R',false, true,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxprxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 64,64,65,'p',false,false,'R','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpRxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 65, 0,63,'R',false, true,'R','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxxpxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 66,62,72,'k',false,false,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkRxpxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 67,63,65,'R', true, true,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxxRxpxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 68, 0,54,'r',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxxxxDxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 69,65,85,'D',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxDxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 70, 0,66,'p',false,false,'NP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxxPKxgksxxxPGxxxpxDxPSNlxxxpxxxL','pppp');
+insert into kifread values( 71,67,66,'P',false, true,'NP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxpPKxgksxxxPGxxxpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 72,72,82,'k',false,false,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxPxKxgksxxxPGxxxpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 73,49,58,'G',false, true,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 74,21,33,'n',false,false,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxxxxprxxPGxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 75, 0,65,'N',false, true,'NPP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 76,73,84,'s',false,false,'PP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxNPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 77,27,54,'H',false, true,'PP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 78,53,54,'p',false,false,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxpHxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 79,85,74,'D',false, true,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','bppp');
+insert into kifread values( 80, 0,73,'p',false,false,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxxDxxPGxxkpsxxPSNlxxxpxxxL','bppp');
+insert into kifread values( 81,74,54,'D',false, true,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxpDxxPGxxkpsxxPSNlxxxpxxxL','bpp');
+insert into kifread values( 82, 0,62,'p',false,false,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxDxxPGxxxxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bpp');
+insert into kifread values( 83,54,51,'D',false, true,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxDxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 84,32,31,'g',false,false,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxDxxxxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 85,65,53,'N', true, true,'RPPP','lxpxxxPxLxsbpxxxSNgxnxxxPxxxxpxxxPxxDxxxxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 86,31,41,'g',false,false,'RPPP','lxpxxxPxLxsbpxxxSNgxnxxxPxxxxpxxxPxxDxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 87,51,41,'D',false, true,'RPPP','lxpxxxPxLxsbpxxxSNxxnxxxPxxgxpxxxPxxDxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 88,23,41,'b',false,false,'RGPPP','lxpxxxPxLxsbpxxxSNxxnxxxPxxDxpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 89, 0,42,'R',false, true,'RGPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxbxpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','rbp');
+insert into kifread values( 90,41,85,'b',false,false,'GPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxbRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','rbp');
+insert into kifread values( 91, 0,76,'G',false, true,'GPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsbxPSNlxxxpxxxL','rbp');
+insert into kifread values( 92, 0,38,'r',false,false,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxGPGxxkpsbxPSNlxxxpxxxL','rbp');
+insert into kifread values( 93,76,85,'G',false, true,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxGPGxxkpsbxPSNlxxxpxxxL','bp');
+insert into kifread values( 94, 0,49,'b',false,false,'BPPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','bp');
+insert into kifread values( 95, 0,48,'B',false, true,'BPPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','p');
+insert into kifread values( 96,38,28,'r', true,false,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','p');
+insert into kifread values( 97,85,84,'G',false, true,'PPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','sp');
+insert into kifread values( 98,83,84,'p',false,false,'SPPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpGxxPSNlxxxpxxxL','sp');
+insert into kifread values( 99,42,22,'R', true, true,'SPPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','gsp');
+insert into kifread values(100,49,58,'b', true,false,'SSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','gsp');
+insert into kifread values(101,68,58,'K',false, true,'SSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBxxxOxxxPhxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggsp');
+insert into kifread values(102, 0,39,'s',false,false,'BSSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBxxxOxxxPKxxpxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggsp');
+insert into kifread values(103,53,62,'O',false, true,'BSSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxsxxpxxxPBxxxOxxxPKxxpxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(104,28,48,'d',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxsxxpxxxPBxxxxxxxPKxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(105,58,67,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPKxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','bggp');
+insert into kifread values(106, 0,58,'b',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPxxxOxxxPKxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','bggp');
+insert into kifread values(107,67,56,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPbxxOxxxPKxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(108,58,47,'b', true,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxKPbxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(109,56,55,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhdxxxxxxKPxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpp');
+insert into kifread values(110,48,57,'d',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhdxxxxxKxPxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpp');
+insert into kifread values(111, 0,56,'P',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKxdxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggppp');
+insert into kifread values(112,57,56,'d',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKPdxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggppp');
+insert into kifread values(113,55,64,'K',false, true,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKdxxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpppp');
+insert into kifread values(114, 0,74,'g',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOxKxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpppp');
+insert into kifread values(115,64,63,'K',false, true,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOxKxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL','gpppp');
+insert into kifread values(116, 0,53,'g',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOKxxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL','gpppp');
+insert into kifread values(    117, null, null, null, null, true,    'BSSPPP', 'lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxgxxdxxxxOKxxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL', 'pppp');select kif_insert(null, '2008-06-29', 'monte carlo', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:17:13.420590 #9284] DEBUG -- : those data is made into a query: 
+ delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,77,76,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21,34,24,'R',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22, 0,23,'p',false,false,'BPPPP','lxpxxxPxLnxxRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 23, 0,87,'P',false, true,'BPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 24,86,76,'r',false,false,'BPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrPSNlxpxxxPxL','');
+insert into kifread values( 25, 0,77,'P',false, true,'BPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrxGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 26,76,66,'r',false,false,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 27,59,68,'K',false, true,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxrPxxsxpxxxPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 28,23,24,'p',false,false,'BPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxrPKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','p');
+insert into kifread values( 29,67,66,'P',false, true,'BPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxrPKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 30,63,64,'p',false,false,'RBPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxpxxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 31, 0,22,'P',false, true,'RBPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 32,31,22,'s',false,false,'RBP','lxpxxxPxLnPxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rp');
+insert into kifread values( 33, 0,35,'R',false, true,'RBP','lxpxxxPxLnsxpxxxSNxgxxxxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 34,45,23,'b',false,false,'BP','lxpxxxPxLnsxpxxxSNxgxxRxPxxxxpxbxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 35,35,85,'R',false, true,'BP','lxpxxxPxLnsbpxxxSNxgxxRxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxxxPSNlxpxxxPxL','rpp');
+insert into kifread values( 36, 0,82,'p',false,false,'BP','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnxxxRxPSNlxpxxxPxL','rpp');
+insert into kifread values( 37, 0,63,'B',false, true,'BP','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxsxpxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 38,71,72,'s',false,false,'P','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxBpxPxKxsxpxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 39,63,27,'B', true, true,'P','lxpxxxPxLnsbpxxxSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxBpxPxKxxspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 40,61,71,'g',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxgxxpxPxKxxspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 41,97,96,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxxxxpxPxKxgspxxxPGxnpxxRxPSNlxpxxxPxL','rp');
+insert into kifread values( 42,51,62,'k',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGkxpxxxPxxxxxpxPxKxgspxxxPGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 43,77,76,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgspxxxPGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 44,73,74,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgspxxPxGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 45,88,77,'S',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPxGxnpxxRxPSNlxpxxPxxL','rp');
+insert into kifread values( 46,82,83,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnpxxRxPxNlxpxxPxxL','rp');
+insert into kifread values( 47,96,95,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxpxxPxxL','rp');
+insert into kifread values( 48,93,94,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxpxPxxxL','rp');
+insert into kifread values( 49,77,88,'S',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPSGxnxpxRxPxNlxxpPxxxL','rp');
+insert into kifread values( 50,81,73,'n',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsxpxPxGxnxpxRxPSNlxxpPxxxL','rp');
+insert into kifread values( 51,85,55,'R',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpxPxKxgsnpxPxGxxxpxRxPSNlxxpPxxxL','rp');
+insert into kifread values( 52,94,95,'p',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpxPxGxxxpxxxPSNlxxpPxxxL','rp');
+insert into kifread values( 53,76,75,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpxPxGxxxpxxxPSNlxxxpxxxL','rpp');
+insert into kifread values( 54,73,85,'n',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsnpPxxGxxxpxxxPSNlxxxpxxxL','rpp');
+insert into kifread values( 55,75,74,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxpPxxGxxxpxnxPSNlxxxpxxxL','rpp');
+insert into kifread values( 56, 0,76,'r',false,false,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxPxxxGxxxpxnxPSNlxxxpxxxL','rpp');
+insert into kifread values( 57,74,73,'P', true, true,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsxPxrxGxxxpxnxPSNlxxxpxxxL','pp');
+insert into kifread values( 58,72,73,'s',false,false,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgsQxxrxGxxxpxnxPSNlxxxpxxxL','pp');
+insert into kifread values( 59, 0,77,'P',false, true,'PP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgxsxxrxGxxxpxnxPSNlxxxpxxxL','ppp');
+insert into kifread values( 60,76,66,'r',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxPxKxgxsxxrPGxxxpxnxPSNlxxxpxxxL','ppp');
+insert into kifread values( 61, 0,67,'P',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxrxKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 62,66,65,'r',false,false,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxpxrPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 63,55,65,'R',false, true,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxRxPxxxkxprxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 64,64,65,'p',false,false,'R','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxpRxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 65, 0,63,'R',false, true,'R','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkxxpxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 66,62,72,'k',false,false,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxkRxpxPKxgxsxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 67,63,65,'R', true, true,'','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxxRxpxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 68, 0,54,'r',false,false,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxpxxxPxxxxxxDxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','rpppp');
+insert into kifread values( 69,65,85,'D',false, true,'P','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxDxPKxgksxxxPGxxxpxnxPSNlxxxpxxxL','pppp');
+insert into kifread values( 70, 0,66,'p',false,false,'NP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxxPKxgksxxxPGxxxpxDxPSNlxxxpxxxL','pppp');
+insert into kifread values( 71,67,66,'P',false, true,'NP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxpPKxgksxxxPGxxxpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 72,72,82,'k',false,false,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxPxKxgksxxxPGxxxpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 73,49,58,'G',false, true,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxGxxprxxPxxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 74,21,33,'n',false,false,'NPP','lxpxxxPxLnsbpxxHSNxgxxxxPxxxxpxxxPxxxxprxxPGxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 75, 0,65,'N',false, true,'NPP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxxPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 76,73,84,'s',false,false,'PP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxNPxKxgxsxxxPGxxkpxDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 77,27,54,'H',false, true,'PP','lxpxxxPxLxsbpxxHSNxgnxxxPxxxxpxxxPxxxxprxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 78,53,54,'p',false,false,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxpHxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','ppp');
+insert into kifread values( 79,85,74,'D',false, true,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxxxxxPGxxkpsDxPSNlxxxpxxxL','bppp');
+insert into kifread values( 80, 0,73,'p',false,false,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxxDxxPGxxkpsxxPSNlxxxpxxxL','bppp');
+insert into kifread values( 81,74,54,'D',false, true,'RPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxpxxPGxxxxxNPxKxgxpDxxPGxxkpsxxPSNlxxxpxxxL','bpp');
+insert into kifread values( 82, 0,62,'p',false,false,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxDxxPGxxxxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bpp');
+insert into kifread values( 83,54,51,'D',false, true,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxxxxDxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 84,32,31,'g',false,false,'RPPP','lxpxxxPxLxsbpxxxSNxgnxxxPxxxxpxxxPxxDxxxxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 85,65,53,'N', true, true,'RPPP','lxpxxxPxLxsbpxxxSNgxnxxxPxxxxpxxxPxxDxxxxxPGxxpxxNPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 86,31,41,'g',false,false,'RPPP','lxpxxxPxLxsbpxxxSNgxnxxxPxxxxpxxxPxxDxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 87,51,41,'D',false, true,'RPPP','lxpxxxPxLxsbpxxxSNxxnxxxPxxgxpxxxPxxDxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 88,23,41,'b',false,false,'RGPPP','lxpxxxPxLxsbpxxxSNxxnxxxPxxDxpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','bp');
+insert into kifread values( 89, 0,42,'R',false, true,'RGPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxbxpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','rbp');
+insert into kifread values( 90,41,85,'b',false,false,'GPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxbRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsxxPSNlxxxpxxxL','rbp');
+insert into kifread values( 91, 0,76,'G',false, true,'GPPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsbxPSNlxxxpxxxL','rbp');
+insert into kifread values( 92, 0,38,'r',false,false,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPxxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxGPGxxkpsbxPSNlxxxpxxxL','rbp');
+insert into kifread values( 93,76,85,'G',false, true,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxGPGxxkpsbxPSNlxxxpxxxL','bp');
+insert into kifread values( 94, 0,49,'b',false,false,'BPPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxxxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','bp');
+insert into kifread values( 95, 0,48,'B',false, true,'BPPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPxbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','p');
+insert into kifread values( 96,38,28,'r', true,false,'PPP','lxpxxxPxLxsxpxxxSNxxnxxxPrxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','p');
+insert into kifread values( 97,85,84,'G',false, true,'PPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpsGxPSNlxxxpxxxL','sp');
+insert into kifread values( 98,83,84,'p',false,false,'SPPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkpGxxPSNlxxxpxxxL','sp');
+insert into kifread values( 99,42,22,'R', true, true,'SPPP','lxpxxxPxLxsxpxxxdNxxnxxxPxxxRpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','gsp');
+insert into kifread values(100,49,58,'b', true,false,'SSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBbxxOxxxPGxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','gsp');
+insert into kifread values(101,68,58,'K',false, true,'SSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBxxxOxxxPhxxpxxxPxKxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggsp');
+insert into kifread values(102, 0,39,'s',false,false,'BSSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxxxxpxxxPBxxxOxxxPKxxpxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggsp');
+insert into kifread values(103,53,62,'O',false, true,'BSSPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxsxxpxxxPBxxxOxxxPKxxpxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(104,28,48,'d',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxdNxxnxxxPxsxxpxxxPBxxxxxxxPKxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(105,58,67,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPKxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','bggp');
+insert into kifread values(106, 0,58,'b',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPxxxOxxxPKxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','bggp');
+insert into kifread values(107,67,56,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxxPbxxOxxxPKxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(108,58,47,'b', true,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxPdxxxxxxKPbxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggp');
+insert into kifread values(109,56,55,'K',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhdxxxxxxKPxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpp');
+insert into kifread values(110,48,57,'d',false,false,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhdxxxxxKxPxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpp');
+insert into kifread values(111, 0,56,'P',false, true,'BSSPPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKxdxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggppp');
+insert into kifread values(112,57,56,'d',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKPdxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggppp');
+insert into kifread values(113,55,64,'K',false, true,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxKdxxxxOxxxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpppp');
+insert into kifread values(114, 0,74,'g',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOxKxPxxxgxpxxxPGxxkxpxxPSNlxxxpxxxL','ggpppp');
+insert into kifread values(115,64,63,'K',false, true,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOxKxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL','gpppp');
+insert into kifread values(116, 0,53,'g',false,false,'BSSPPP','lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxxxxdxxxxOKxxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL','gpppp');
+insert into kifread values(    117, null, null, null, null, true,    'BSSPPP', 'lxpxxxPxLxDxpxxxxNxxnxxxPxsxxpxxxhxxxxgxxdxxxxOKxxPxxxgxpgxxPGxxkxpxxPSNlxxxpxxxL', 'pppp');select kif_insert(null, '2008-06-29', 'monte carlo', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:17:14.125720 #9284] DEBUG -- : regist24kif.rb: kekka is 
+D, [2010-05-19T22:19:44.613697 #9308] DEBUG -- : information about this game : w:fiasco:b:kannza:r:w:g:2008-07-05
+D, [2010-05-19T22:19:44.628079 #9308] DEBUG -- : kifu data is transformed in to a seriese of byte : \n=<BCCD6>DEFEAEÇ?GRW RFE<G= =<RGH=XHX?.89:-5@9FE:;<FH¿>?GÈ?H;<F<XW<R:<:¹89=298R98/X@/.TBUJ@ÉJB2'W=5,=Ÿ'®%.S)R(V2:½2((0=4,#40
+D, [2010-05-19T22:19:44.628130 #9308] DEBUG -- : the length of this byte is : 160
+D, [2010-05-19T22:19:44.634832 #9308] DEBUG -- : delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,77,76,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21, 0,87,'P',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22,86,76,'r',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrPSNlxpxxxPxL','p');
+insert into kifread values( 23,88,77,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrxGxnxxxxxPSNlxpxxxPxL','pp');
+insert into kifread values( 24,45,34,'b',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrSGxnxxxxxPxNlxpxxxPxL','pp');
+insert into kifread values( 25,77,76,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxrSGxnxxxxxPxNlxpxxxPxL','rpp');
+insert into kifread values( 26, 0,88,'p',false,false,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSxGxnxxxxxPxNlxpxxxPxL','rpp');
+insert into kifread values( 27,89,77,'N',false, true,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSxGxnxxxxxPpNlxpxxxPxL','rp');
+insert into kifread values( 28, 0,89,'r',false,false,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGxnxxxxxPpxlxpxxxPxL','rp');
+insert into kifread values( 29, 0,79,'R',false, true,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGxnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 30,32,33,'g',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 31,37,36,'P',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 32,61,72,'g',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 33,17,16,'P',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 34,73,74,'p',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 35,59,68,'K',false, true,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgxpxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 36,81,73,'n',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgxpxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 37,36,35,'P',false, true,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 38,34,12,'b',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 39,87,86,'P',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 40,74,75,'p',false,false,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxPxprlxpxxxPxL','p');
+insert into kifread values( 41,76,87,'S',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpSNGRxxxxxPxprlxpxxxPxL','p');
+insert into kifread values( 42,89,79,'r', true,false,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNGRxxxxxPSprlxpxxxPxL','p');
+insert into kifread values( 43,78,79,'G',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNGdxxxxxPSpxlxpxxxPxL','rp');
+insert into kifread values( 44,88,89,'p', true,false,'RBPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxGxxxxxPSpxlxpxxxPxL','rp');
+insert into kifread values( 45,79,89,'G',false, true,'RBPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxGxxxxxPSxqlxpxxxPxL','rp');
+insert into kifread values( 46,75,76,'p',false,false,'RBPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxxxxxxxPSxGlxpxxxPxL','rp');
+insert into kifread values( 47,87,76,'S',false, true,'RBPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxpNxxxxxxxPSxGlxpxxxPxL','rp');
+insert into kifread values( 48, 0,26,'r',false,false,'RBPPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','rp');
+insert into kifread values( 49, 0,37,'B',false, true,'RBPPPPP','lbpxxPxxLnxxxxrxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','p');
+insert into kifread values( 50,26,76,'r',false,false,'RPPPPP','lbpxxPxxLnxxxxrxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','p');
+insert into kifread values( 51, 0,74,'P',false, true,'RPPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxrNxxxxxxxPxxGlxpxxxPxL','sp');
+insert into kifread values( 52,76,74,'r',false,false,'RPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnPxrNxxxxxxxPxxGlxpxxxPxL','sp');
+insert into kifread values( 53,37,73,'B', true, true,'RPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnrxxNxxxxxxxPxxGlxpxxxPxL','spp');
+insert into kifread values( 54,72,73,'g',false,false,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgHrxxNxxxxxxxPxxGlxpxxxPxL','spp');
+insert into kifread values( 55,77,65,'N',false, true,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsxgrxxNxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 56,73,72,'g',false,false,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsxgrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 57, 0,73,'P',false, true,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsgxrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 58,72,62,'g',false,false,'RNPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsgPrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 59, 0,81,'R',false, true,'RNPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxgpxNxPKxsxPrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 60,62,61,'g',false,false,'NPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxgpxNxPKxsxPrxxxxxRxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 61, 0,83,'N',false, true,'NPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 62, 0,92,'s',false,false,'PPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxNxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 63,81,91,'R', true, true,'PPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxNxxPxxGlspxxxPxL','bpp');
+insert into kifread values( 64,92,83,'s',false,false,'LPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxxxNxxPxxGDspxxxPxL','bpp');
+insert into kifread values( 65,65,53,'N',false, true,'LPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxxxsxxPxxGDxpxxxPxL','bnpp');
+insert into kifread values( 66, 0,77,'b',false,false,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPxxgxpxxxPKxsxPrxxxxxxxsxxPxxGDxpxxxPxL','bnpp');
+insert into kifread values( 67,68,58,'K',false, true,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPxxgxpxxxPKxsxPrxxbxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 68,77,44,'b', true,false,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPKxgxpxxxPxxsxPrxxbxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 69,53,61,'N', true, true,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGkxNxxxPKxgxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 70,51,61,'k',false,false,'GLPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGkxxxxxPKxOxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 71, 0,55,'L',false, true,'GLPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxxxxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 72, 0,54,'p',false,false,'GPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxxLxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 73, 0,65,'G',false, true,'GPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 74,74,77,'r', true,false,'PPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxGxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 75,65,54,'G',false, true,'PPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxGxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 76,44,35,'h',false,false,'PPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxGLxPKxkxpxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 77,54,63,'G',false, true,'PPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxGLxPKxkxpxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 78,77,67,'d',false,false,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxxLxPKxkxGxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 79,58,48,'K',false, true,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxxLxPKxkxGxxxdxxsxPxxxxxxxxsxxPxxGDxpxxxPxL','nnppp');
+insert into kifread values( 80,67,63,'d',false,false,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPKGxxxxLxPxxkxGxxxdxxsxPxxxxxxxxsxxPxxGDxpxxxPxL','nnppp');
+insert into kifread values(    81, null, null, null, null, true,    'PPPPPP', 'lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPKGxxxxLxPxxkxdxxxxxxsxPxxxxxxxxsxxPxxGDxpxxxPxL', 'gnnppp');select kif_insert(null, '2008-07-05', 'kannza', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:19:44.635026 #9308] DEBUG -- : those data is made into a query: 
+ delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,77,76,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21, 0,87,'P',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22,86,76,'r',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrPSNlxpxxxPxL','p');
+insert into kifread values( 23,88,77,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrxGxnxxxxxPSNlxpxxxPxL','pp');
+insert into kifread values( 24,45,34,'b',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxrSGxnxxxxxPxNlxpxxxPxL','pp');
+insert into kifread values( 25,77,76,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxrSGxnxxxxxPxNlxpxxxPxL','rpp');
+insert into kifread values( 26, 0,88,'p',false,false,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSxGxnxxxxxPxNlxpxxxPxL','rpp');
+insert into kifread values( 27,89,77,'N',false, true,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSxGxnxxxxxPpNlxpxxxPxL','rp');
+insert into kifread values( 28, 0,89,'r',false,false,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGxnxxxxxPpxlxpxxxPxL','rp');
+insert into kifread values( 29, 0,79,'R',false, true,'RBPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGxnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 30,32,33,'g',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsgxbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 31,37,36,'P',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 32,61,72,'g',false,false,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 33,17,16,'P',false, true,'BPPP','lxpxxxPxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 34,73,74,'p',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgpxxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 35,59,68,'K',false, true,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxKxxpxxxPxxsgxpxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 36,81,73,'n',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgxpxSNGRnxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 37,36,35,'P',false, true,'BPPP','lxpxxPxxLnxxxxxxSNsxgbxPxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 38,34,12,'b',false,false,'BPPP','lxpxxPxxLnxxxxxxSNsxgbPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 39,87,86,'P',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxxPprlxpxxxPxL','p');
+insert into kifread values( 40,74,75,'p',false,false,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnpxSNGRxxxxxPxprlxpxxxPxL','p');
+insert into kifread values( 41,76,87,'S',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpSNGRxxxxxPxprlxpxxxPxL','p');
+insert into kifread values( 42,89,79,'r', true,false,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNGRxxxxxPSprlxpxxxPxL','p');
+insert into kifread values( 43,78,79,'G',false, true,'BPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNGdxxxxxPSpxlxpxxxPxL','rp');
+insert into kifread values( 44,88,89,'p', true,false,'RBPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxGxxxxxPSpxlxpxxxPxL','rp');
+insert into kifread values( 45,79,89,'G',false, true,'RBPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxGxxxxxPSxqlxpxxxPxL','rp');
+insert into kifread values( 46,75,76,'p',false,false,'RBPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxpxNxxxxxxxPSxGlxpxxxPxL','rp');
+insert into kifread values( 47,87,76,'S',false, true,'RBPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxpNxxxxxxxPSxGlxpxxxPxL','rp');
+insert into kifread values( 48, 0,26,'r',false,false,'RBPPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','rp');
+insert into kifread values( 49, 0,37,'B',false, true,'RBPPPPP','lbpxxPxxLnxxxxrxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','p');
+insert into kifread values( 50,26,76,'r',false,false,'RPPPPP','lbpxxPxxLnxxxxrxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxSNxxxxxxxPxxGlxpxxxPxL','p');
+insert into kifread values( 51, 0,74,'P',false, true,'RPPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnxxrNxxxxxxxPxxGlxpxxxPxL','sp');
+insert into kifread values( 52,76,74,'r',false,false,'RPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnPxrNxxxxxxxPxxGlxpxxxPxL','sp');
+insert into kifread values( 53,37,73,'B', true, true,'RPPPP','lbpxxPxxLnxxxxxxSNsxgxPxBxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgnrxxNxxxxxxxPxxGlxpxxxPxL','spp');
+insert into kifread values( 54,72,73,'g',false,false,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsgHrxxNxxxxxxxPxxGlxpxxxPxL','spp');
+insert into kifread values( 55,77,65,'N',false, true,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxxxPKxsxgrxxNxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 56,73,72,'g',false,false,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsxgrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 57, 0,73,'P',false, true,'RNPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsgxrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 58,72,62,'g',false,false,'RNPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxxpxNxPKxsgPrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 59, 0,81,'R',false, true,'RNPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxgpxNxPKxsxPrxxxxxxxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 60,62,61,'g',false,false,'NPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxxgpxNxPKxsxPrxxxxxRxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 61, 0,83,'N',false, true,'NPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxxxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 62, 0,92,'s',false,false,'PPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxNxxPxxGlxpxxxPxL','bspp');
+insert into kifread values( 63,81,91,'R', true, true,'PPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxRxNxxPxxGlspxxxPxL','bpp');
+insert into kifread values( 64,92,83,'s',false,false,'LPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxxxNxxPxxGDspxxxPxL','bpp');
+insert into kifread values( 65,65,53,'N',false, true,'LPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxpxxxPxxgxpxNxPKxsxPrxxxxxxxsxxPxxGDxpxxxPxL','bnpp');
+insert into kifread values( 66, 0,77,'b',false,false,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPxxgxpxxxPKxsxPrxxxxxxxsxxPxxGDxpxxxPxL','bnpp');
+insert into kifread values( 67,68,58,'K',false, true,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPxxgxpxxxPKxsxPrxxbxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 68,77,44,'b', true,false,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxpxxxPxGkxNxxxPKxgxpxxxPxxsxPrxxbxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 69,53,61,'N', true, true,'LPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGkxNxxxPKxgxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 70,51,61,'k',false,false,'GLPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGkxxxxxPKxOxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','npp');
+insert into kifread values( 71, 0,55,'L',false, true,'GLPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxxxxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 72, 0,54,'p',false,false,'GPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxxLxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 73, 0,65,'G',false, true,'GPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxxxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 74,74,77,'r', true,false,'PPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxGxPxxsxPrxxxxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 75,65,54,'G',false, true,'PPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxpLxPKxkxpxGxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 76,44,35,'h',false,false,'PPPPP','lbpxxPxxLnxxxxxxSNsxgxPxxxxxxphxxPxGxxxGLxPKxkxpxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnp');
+insert into kifread values( 77,54,63,'G',false, true,'PPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxGLxPKxkxpxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 78,77,67,'d',false,false,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxxLxPKxkxGxxxPxxsxPxxxdxxxxsxxPxxGDxpxxxPxL','nnpp');
+insert into kifread values( 79,58,48,'K',false, true,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPxGxxxxLxPKxkxGxxxdxxsxPxxxxxxxxsxxPxxGDxpxxxPxL','nnppp');
+insert into kifread values( 80,67,63,'d',false,false,'PPPPPP','lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPKGxxxxLxPxxkxGxxxdxxsxPxxxxxxxxsxxPxxGDxpxxxPxL','nnppp');
+insert into kifread values(    81, null, null, null, null, true,    'PPPPPP', 'lbpxxPxxLnxxxxxxSNsxgxhxxxxxxpxxxPKGxxxxLxPxxkxdxxxxxxsxPxxxxxxxxsxxPxxGDxpxxxPxL', 'gnnppp');select kif_insert(null, '2008-07-05', 'kannza', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:19:44.868747 #9308] DEBUG -- : regist24kif.rb: kekka is 
+D, [2010-05-19T22:19:49.875157 #9311] DEBUG -- : information about this game : w:fiasco:b:Datejust:r:w:g:2008-07-09
+D, [2010-05-19T22:19:49.886104 #9311] DEBUG -- : kifu data is transformed in to a seriese of byte : \n=<BCCD6>DEFEAEÇ?GRW RW=EÇ=GGXR W =%&S*U 	=*§&'X	®>U,>H-#V"!U#"W"*S(*3S1
+D, [2010-05-19T22:19:49.886164 #9311] DEBUG -- : the length of this byte is : 120
+D, [2010-05-19T22:19:49.891447 #9311] DEBUG -- : delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,77,76,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21,34,24,'R',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22, 0,23,'p',false,false,'BPPPP','lxpxxxPxLnxxRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 23, 0,77,'B',false, true,'BPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 24,86,88,'r', true,false,'PPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPBGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 25,77,88,'B',false, true,'PPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPBGxnxxxxxxdNlxpxxxPxL','s');
+insert into kifread values( 26,23,24,'p',false,false,'RPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxBNlxpxxxPxL','s');
+insert into kifread values( 27,88,11,'B', true, true,'RPPPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxBNlxpxxxPxL','rs');
+insert into kifread values( 28, 0,26,'r',false,false,'RLPPPP','HxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','rs');
+insert into kifread values( 29, 0,27,'P',false, true,'RLPPPP','HxpxxxPxLnxxpxrxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','s');
+insert into kifread values( 30,45,27,'b', true,false,'RLPPP','HxpxxxPxLnxxpxrPSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','s');
+insert into kifread values( 31,28,27,'S',false, true,'RLPPP','HxpxxxPxLnxxpxrhSNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 32,26,27,'r', true,false,'RBLPPP','HxpxxxPxLnxxpxrSxNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 33, 0,45,'B',false, true,'RBLPPP','HxpxxxPxLnxxpxxdxNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 34,27,28,'d',false,false,'RLPPP','HxpxxxPxLnxxpxxdxNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 35,11,77,'H',false, true,'RLPPP','HxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 36,51,52,'k',false,false,'RLPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 37, 0,56,'L',false, true,'RLPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGxkpxxxPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 38, 0,44,'s',false,false,'RPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 39,45,18,'B',false, true,'RPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpsBxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 40,28,19,'d',false,false,'RPPP','xxpxxxPBLnxxpxxxdNsgxxxxPxxxxpsxxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 41,77,44,'H',false, true,'RPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxpsxxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','slp');
+insert into kifread values( 42,43,44,'p',false,false,'RSPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxpHxxPxGxkpxxLPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','slp');
+insert into kifread values( 43,56,53,'L', true, true,'RSPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxkpxxLPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bslp');
+insert into kifread values( 44,52,53,'k',false,false,'RSPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxkMxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bslp');
+insert into kifread values( 45, 0,41,'R',false, true,'RSPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bsllp');
+insert into kifread values( 46,19,18,'d',false,false,'SPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxRxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bsllp');
+insert into kifread values( 47,41,61,'R', true, true,'SPPPP','xxpxxxPdxnxxpxxxxNsgxxxxPxxRxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bbsllp');
+insert into kifread values( 48,18,78,'d',false,false,'GSPPPP','xxpxxxPdxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKDxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bbsllp');
+insert into kifread values( 49, 0,58,'S',false, true,'GSPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKDxpxxxPxxsxpxxPxdxnxxxxxxxNlxpxxxPxL','bbgsllp');
+insert into kifread values( 50,78,89,'d',false,false,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPSKDxpxxxPxxsxpxxPxdxnxxxxxxxNlxpxxxPxL','bbgsllp');
+insert into kifread values( 51,59,48,'K',false, true,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPSKDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbgsnllp');
+insert into kifread values( 52, 0,28,'g',false,false,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbgsnllp');
+insert into kifread values( 53,47,46,'P',false, true,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxxxxxpxxPKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbsnllp');
+insert into kifread values( 54, 0,39,'s',false,false,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxxxxxpxPxKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbsnllp');
+insert into kifread values( 55,48,47,'K',false, true,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxsxxxpxPxKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbnllp');
+insert into kifread values( 56, 0,25,'b',false,false,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxsxxxpxPKxGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbnllp');
+insert into kifread values( 57,47,56,'K',false, true,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPKxGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnllp');
+insert into kifread values( 58, 0,54,'l',false,false,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxkxxKPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnllp');
+insert into kifread values( 59,56,66,'K',false, true,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxKPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnlp');
+insert into kifread values( 60, 0,64,'l',false,false,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxxPSxDxpxxKPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnlp');
+insert into kifread values(    61, null, null, null, null, true,    'GPPPP', 'xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxxPSxDxplxKPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL', 'bnp');select kif_insert(null, '2008-07-09', 'Datejust', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:19:49.891643 #9311] DEBUG -- : those data is made into a query: 
+ delete from kifread;delete from new_boards;delete from new_moves;insert into kifread values(  1,27,26,'P',false, true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  2,33,34,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  3,77,76,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  4,83,84,'p',false,false,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrpxxxPBNlxpxxxPxL','');
+insert into kifread values(  5,26,25,'P',false, true,'','lxpxxxPxLnbpxxPxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  6,84,85,'p',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxpxxPBNlxpxxxPxL','');
+insert into kifread values(  7,69,78,'G',false, true,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxPxxSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  8,41,32,'g',false,false,'','lxpxxxPxLnbpxPxxRNsxxpxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values(  9,25,24,'P',false, true,'','lxpxxxPxLnbpxPxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 10,23,24,'p',false,false,'','lxpxxxPxLnbpPxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','');
+insert into kifread values( 11,28,24,'R',false, true,'','lxpxxxPxLnbxpxxxRNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 12,85,86,'p',false,false,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxpxPBNlxpxxxPxL','p');
+insert into kifread values( 13,87,86,'P',false, true,'P','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxpPBNlxpxxxPxL','p');
+insert into kifread values( 14,82,86,'r',false,false,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnrxxxPxBNlxpxxxPxL','p');
+insert into kifread values( 15,24,34,'R',false, true,'PP','lxpxxxPxLnbxRxxxxNsgxpxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 16,22,88,'b', true,false,'PPP','lxpxxxPxLnbxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxBNlxpxxxPxL','pp');
+insert into kifread values( 17,79,88,'S',false, true,'PPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGSnxxxxrxhNlxpxxxPxL','bpp');
+insert into kifread values( 18, 0,28,'p',false,false,'BPPP','lxpxxxPxLnxxxxxxxNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bpp');
+insert into kifread values( 19,39,28,'S',false, true,'BPPP','lxpxxxPxLnxxxxxxpNsgxRxxPxSxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 20, 0,45,'b',false,false,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','bp');
+insert into kifread values( 21,34,24,'R',false, true,'BPPPP','lxpxxxPxLnxxxxxxSNsgxRxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 22, 0,23,'p',false,false,'BPPPP','lxpxxxPxLnxxRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','p');
+insert into kifread values( 23, 0,77,'B',false, true,'BPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 24,86,88,'r', true,false,'PPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPBGxnxxxxrxSNlxpxxxPxL','');
+insert into kifread values( 25,77,88,'B',false, true,'PPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPBGxnxxxxxxdNlxpxxxPxL','s');
+insert into kifread values( 26,23,24,'p',false,false,'RPPPP','lxpxxxPxLnxpRxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxBNlxpxxxPxL','s');
+insert into kifread values( 27,88,11,'B', true, true,'RPPPP','lxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxBNlxpxxxPxL','rs');
+insert into kifread values( 28, 0,26,'r',false,false,'RLPPPP','HxpxxxPxLnxxpxxxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','rs');
+insert into kifread values( 29, 0,27,'P',false, true,'RLPPPP','HxpxxxPxLnxxpxrxSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','s');
+insert into kifread values( 30,45,27,'b', true,false,'RLPPP','HxpxxxPxLnxxpxrPSNsgxxxxPxxxxpxbxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','s');
+insert into kifread values( 31,28,27,'S',false, true,'RLPPP','HxpxxxPxLnxxpxrhSNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 32,26,27,'r', true,false,'RBLPPP','HxpxxxPxLnxxpxrSxNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 33, 0,45,'B',false, true,'RBLPPP','HxpxxxPxLnxxpxxdxNsgxxxxPxxxxpxxxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 34,27,28,'d',false,false,'RLPPP','HxpxxxPxLnxxpxxdxNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 35,11,77,'H',false, true,'RLPPP','HxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 36,51,52,'k',false,false,'RLPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGkxpxxxPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 37, 0,56,'L',false, true,'RLPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGxkpxxxPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 38, 0,44,'s',false,false,'RPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpxBxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','ssp');
+insert into kifread values( 39,45,18,'B',false, true,'RPPP','xxpxxxPxLnxxpxxxdNsgxxxxPxxxxpsBxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 40,28,19,'d',false,false,'RPPP','xxpxxxPBLnxxpxxxdNsgxxxxPxxxxpsxxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','sp');
+insert into kifread values( 41,77,44,'H',false, true,'RPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxpsxxPxGxkpxxLPxKgxpxxxPxxsxpxxPHGxnxxxxxxxNlxpxxxPxL','slp');
+insert into kifread values( 42,43,44,'p',false,false,'RSPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxpHxxPxGxkpxxLPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','slp');
+insert into kifread values( 43,56,53,'L', true, true,'RSPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxkpxxLPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bslp');
+insert into kifread values( 44,52,53,'k',false,false,'RSPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxkMxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bslp');
+insert into kifread values( 45, 0,41,'R',false, true,'RSPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bsllp');
+insert into kifread values( 46,19,18,'d',false,false,'SPPPP','xxpxxxPBdnxxpxxxxNsgxxxxPxxRxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bsllp');
+insert into kifread values( 47,41,61,'R', true, true,'SPPPP','xxpxxxPdxnxxpxxxxNsgxxxxPxxRxxpxxPxGxxkxxxPxKgxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bbsllp');
+insert into kifread values( 48,18,78,'d',false,false,'GSPPPP','xxpxxxPdxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKDxpxxxPxxsxpxxPxGxnxxxxxxxNlxpxxxPxL','bbsllp');
+insert into kifread values( 49, 0,58,'S',false, true,'GSPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPxKDxpxxxPxxsxpxxPxdxnxxxxxxxNlxpxxxPxL','bbgsllp');
+insert into kifread values( 50,78,89,'d',false,false,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPSKDxpxxxPxxsxpxxPxdxnxxxxxxxNlxpxxxPxL','bbgsllp');
+insert into kifread values( 51,59,48,'K',false, true,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPxGxxkxxxPSKDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbgsnllp');
+insert into kifread values( 52, 0,28,'g',false,false,'GPPPP','xxpxxxPxxnxxpxxxxNsgxxxxPxxxxxpxxPKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbgsnllp');
+insert into kifread values( 53,47,46,'P',false, true,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxxxxxpxxPKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbsnllp');
+insert into kifread values( 54, 0,39,'s',false,false,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxxxxxpxPxKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbsnllp');
+insert into kifread values( 55,48,47,'K',false, true,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxsxxxpxPxKGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbnllp');
+insert into kifread values( 56, 0,25,'b',false,false,'GPPPP','xxpxxxPxxnxxpxxxgNsgxxxxPxsxxxpxPKxGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bbnllp');
+insert into kifread values( 57,47,56,'K',false, true,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPKxGxxkxxxPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnllp');
+insert into kifread values( 58, 0,54,'l',false,false,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxkxxKPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnllp');
+insert into kifread values( 59,56,66,'K',false, true,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxKPSxDxpxxxPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnlp');
+insert into kifread values( 60, 0,64,'l',false,false,'GPPPP','xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxxPSxDxpxxKPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL','bnlp');
+insert into kifread values(    61, null, null, null, null, true,    'GPPPP', 'xxpxxxPxxnxxpbxxgNsgxxxxPxsxxxpxPxxGxxklxxPSxDxplxKPxxsxpxxPxxxnxxxxxxxdlxpxxxPxL', 'bnp');select kif_insert(null, '2008-07-09', 'Datejust', 'fiasco', 'w');delete from kifread;
+D, [2010-05-19T22:19:50.020233 #9311] DEBUG -- : regist24kif.rb: kekka is 
