@@ -1,1 +1,11 @@
-log
+.swp
+*.swp
+*/*/.swp
+.log
+*.log
+*/*/.log
+../log/*.*
+log/*.*
+img/*.*
+public/lib/*.*
+public/lib
