@@ -1,13 +1,15 @@
 --
 --  kifreadからそれぞれのテーブルへデータをコピーする
 --
+-- 入力 5つ（下記参照）登録する棋譜のメタデータ
+-- 出力 record kifsへ登録したこの棋譜のrecord
 create or replace function kif_insert(
     id_on_2ch integer,
     game_date date,
     black_name varchar(30),
     white_name varchar(30),
     result_char char)
-  returns void as $$
+  returns kifs as $$
   declare
     old_bid   integer default 1;
     new_bid   integer default 0;
@@ -17,7 +19,9 @@ create or replace function kif_insert(
     new_mid_str varchar;
     new_kid   integer;
     kif_data  varchar default '';
+    new_move_str varchar default '';
     kif_tesu  integer;
+    result    kifs%rowtype;
   begin
     raise notice 'new game start : id is %, ',id_on_2ch;
     -- kifreadから１行読み、old_lineとする
@@ -57,6 +61,8 @@ create or replace function kif_insert(
         insert into moves values(old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid);
 	  -- new_movesにも登録
         insert into new_moves values(old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid);
+          -- この手が新手なので、new_move_strに'0'を追加
+        new_move_str := new_move_str || '0';
       else
         -- lineのboard が既存の局面の場合
           -- new_bidにはlineのboardのbidがはいっているはず
@@ -72,8 +78,12 @@ create or replace function kif_insert(
           insert into moves values(old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid);
 	   -- 指し手をnew_movesにも登録
           insert into new_moves values(old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid);
+           -- この手が新手なので、new_move_strに'0'を追加
+          new_move_str := new_move_str || '0';
         else
 	  raise notice 'and, this move is also found in moves: bid %, mid %, ',old_bid, new_mid;
+           -- この手が新手ではないので、new_move_strに'1'を追加
+          new_move_str := new_move_str || '1';
 	end if;
       end if;
       -- ループの最後には局面だけが存在し、指し手が存在しないので脱出する
@@ -91,15 +101,24 @@ create or replace function kif_insert(
       end if;
       -- kif_dataの末尾に追加していく
       kif_data := kif_data || new_mid_str;
-      raise notice 'new_mid is % kif_data is % ', new_mid, kif_data;
+      raise notice 'new_mid is % , kif_data is % , new_move_str is % ', new_mid, kif_data, new_move_str;
     end loop;
     raise notice 'loop ended. kif_data became % ', kif_data;
-    -- kif_data から末尾の0の連続を削除する
+    raise notice 'loop ended. new_move_str became % ', new_move_str;
+    -- kif_data, new_move_str から末尾の0の連続を削除する
     kif_data := rtrim_zeros(kif_data);
+    new_move_str := rtrim_zeros(new_move_str);
     -- kifreadからこの棋譜の手数を読み取る。最後に空白行があるので１を引く。
     select max(tesu)-1 into kif_tesu from kifread;
-    raise notice 'information is into kifs';
-    insert into kifs (id2ch, tesu, gdate, black, white, result, kif) values(id_on_2ch, kif_tesu, game_date, black_name, white_name, result_char, kif_data);
+    raise notice 'going to regist metadata into kifs';
+    begin
+      -- max kid の値が競合しないようにロックをかける。
+      lock kifs in exclusive mode;
+      select into new_kid max(kid) + 1 from kifs;
+      insert into kifs values(new_kid, id_on_2ch, kif_tesu, game_date, black_name, white_name, result_char, kif_data, new_move_str);
+    end;
+    select * into result from kifs where kid = new_kid;
+    return result;
   end;$$
 language 'plpgsql';
 
