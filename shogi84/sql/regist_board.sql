@@ -25,7 +25,7 @@ create or replace function regist_board(boolean, char(81), varchar(40), varchar(
      begin
        raise notice 'regist_board 0 : arg_turn is %  arg_board is %  arg_oldbid is %', arg_turn, arg_board, arg_oldbid;
        -- 作業用のテーブルをクリア
-       delete from forBoardRegist;
+       truncate forBoardRegist;
 
        -- まず新手のmidを決定
        select coalesce(max(mid)+1,0) into new_mid from moves where bid = arg_oldbid;

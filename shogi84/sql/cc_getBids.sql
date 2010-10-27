@@ -21,7 +21,7 @@ create or replace function cc_getBids(integer, integer)
     begin
       -- raise notice 'cc_getBids : arg_bid is %  arg_level is %', arg_bid, arg_level;
         -- まずarrを空にする
-      delete from arr;
+      truncate arr;
         -- 渡されたbidについて、arrにデータを登録
       perform cc_putArr(arg_bid, 0);
         -- それをもとにlevelぶん展開する

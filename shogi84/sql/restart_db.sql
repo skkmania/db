@@ -2,13 +2,13 @@
 -- restart db
 --  作りかけてはやりなおすときのためのバッチ処理
 --  中途半端に登録したデータを削除する
-delete from moves;
-delete from boards;
-delete from kifread;
-delete from kifs;
-delete from kifu_data;
-delete from new_moves;
-delete from new_boards;
+truncate moves;
+truncate boards;
+truncate kifread;
+truncate kifs;
+truncate kifu_data;
+truncate new_moves;
+truncate new_boards;
 
 insert into boards values(1,true,'','lxpxxxPxLnbpxxxPRNsxpxxxPxSgxpxxxPxGkxpxxxPxKgxpxxxPxGsxpxxxPxSnrpxxxPBNlxpxxxPxL','');
 
