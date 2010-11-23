@@ -3,13 +3,14 @@
 --    与えられた盤面情報を検索し、そのbidを返す。
 --    同時に指し手をmovesに登録する。
 --    その盤面がなければ、bidを生成し、盤面をboardsに、指し手をmovesに登録する。
---    返り値: record変数 この変数にはboardが既存のものならbidのみを格納し、boardが新規のものならbidとmidを格納する
+--    入力: 盤面情報と指し手情報。詳細は、以下のarg_変数のコメント参照。
+--    返値: record変数 この変数にはboardが既存のものならbidのみを格納し、boardが新規のものならbidとmidを格納する
 --
 create or replace function regist_board(boolean, char(81), varchar(40), varchar(40), integer, smallint, smallint, char, boolean)
   returns text as $$
      declare
-       arg_turn    alias for $1;
-       arg_board   alias for $2;
+       arg_turn    alias for $1;  -- 手番
+       arg_board   alias for $2;  -- 盤面文字列
        arg_black   alias for $3;
        arg_white   alias for $4;
        arg_oldbid  alias for $5;

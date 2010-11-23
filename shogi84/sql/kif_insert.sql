@@ -55,6 +55,9 @@ create or replace function kif_insert(
 	-- bidが新しいということはこの手は新手なのでmovesに登録
 	  -- まず新しいmidを生成して
         select coalesce(max(mid)+1,0) into new_mid from moves where bid = old_bid;
+        -- new_mid := generate_new_mid(old_bid);
+        -- execute generate_new_mid(old_bid) into new_mid;
+
 	raise notice 'and, new mid is generated: %', new_mid;
         raise notice '1: insert into moves %, %, %, %, %, %, %', old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid;
 	  -- moves に登録
@@ -73,6 +76,7 @@ create or replace function kif_insert(
 	   -- 指し手がmovesに無い場合だけ
 	  raise notice 'but, this move is not found in moves: old_bid is %, new_bid is %, board is %',old_bid, new_bid, line.board;
 	  select coalesce(max(mid)+1,0) into new_mid from moves where bid = old_bid;
+          -- new_mid := generate_new_mid(old_bid);
           raise notice '2: insert into moves %, %, %, %, %, %, %', old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid;
 	   -- 指し手をmovesに登録
           insert into moves values(old_bid, new_mid, old_line.m_from, old_line.m_to, old_line.piece, old_line.promote, new_bid);
